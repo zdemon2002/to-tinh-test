@@ -400,6 +400,10 @@ canvas {
         context.font = "bold 40px Arial"; // Increased font size
         context.fillText("Wish You The Best Birthday Ever :3", canvas.width / 2, canvas.height / 2+220 ); // Adjust y position as needed
 
+          // Render the additional phrase directly below the main message
+          context.font = "bold 20px Arial"; // Increased font size
+          context.fillText("Click bất kỳ để nghe nhạc nha :3", canvas.width / 2, canvas.height / 2+250 ); // Adjust y position as needed
+  
         // Update display time and logic
         messageDisplayTime += 1;
         if (messageDisplayTime >= 60) { // 1 second at 60fps
